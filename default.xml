@@ -10,7 +10,7 @@
 
   <project path="nuttx-apps/interpreters/wamr/wamr" name="bytecodealliance/wasm-micro-runtime" remote="origin" revision="main" />
 
-  <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="v9.2.1" />
+  <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="release/v9.2" />
 
    <project path="boards" name="boards.git" remote="github" revision="main" />
 
