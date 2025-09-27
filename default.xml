@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/" />
+
+  <remote name="github" fetch="git@github.com:no1wudi" />
+
+  <project path="nuttx" name="apache/nuttx" remote="origin" revision="master" />
+
+  <project path="nuttx-apps" name="apache/nuttx-apps" remote="origin" revision="master" />
+
+  <project path="nuttx-apps/interpreters/wamr/wamr" name="bytecodealliance/wasm-micro-runtime" remote="origin" revision="main" />
+
+  <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="v9.2.1" />
+
+  <project path="boards" name="boards.git" remote="github" />
+
+  <project path="nuttx-apps/external" name="external.git" remote="github" />
+
+  <project path="nuttx-apps/external/crates" name="nuttx-crates-index.git" remote="github" />
+</manifest>
