@@ -16,5 +16,5 @@
 
    <project path="nuttx-apps/external" name="external.git" remote="github" revision="main" />
 
-  <project path="nuttx-apps/external/crates" name="nuttx-crates-index.git" remote="github" />
+  <project path="nuttx-apps/external/crates" name="nuttx-crates-index.git" remote="github" revision="main" />
 </manifest>
