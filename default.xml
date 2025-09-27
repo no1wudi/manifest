@@ -12,9 +12,9 @@
 
   <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="v9.2.1" />
 
-  <project path="boards" name="boards.git" remote="github" />
+   <project path="boards" name="boards.git" remote="github" revision="main" />
 
-  <project path="nuttx-apps/external" name="external.git" remote="github" />
+   <project path="nuttx-apps/external" name="external.git" remote="github" revision="main" />
 
   <project path="nuttx-apps/external/crates" name="nuttx-crates-index.git" remote="github" />
 </manifest>
