@@ -10,11 +10,11 @@
 
   <project path="nuttx-apps/interpreters/wamr/wamr" name="bytecodealliance/wasm-micro-runtime" remote="origin" revision="main" />
 
-  <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="release/v9.2" />
+  <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="59a6b61c9580b65089010c5273f2fcdd6c4d2aae" />
 
-   <project path="boards" name="boards.git" remote="github" revision="main" />
+  <project path="boards" name="boards.git" remote="github" revision="main" />
 
-   <project path="nuttx-apps/external" name="external.git" remote="github" revision="main" />
+  <project path="nuttx-apps/external" name="external.git" remote="github" revision="main" />
 
   <project path="nuttx-apps/external/crates" name="nuttx-crates-index.git" remote="github" revision="main" />
 </manifest>
