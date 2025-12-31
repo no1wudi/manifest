@@ -20,5 +20,5 @@
 
   <project path="manifest" name="manifest.git" remote="github" revision="main" />
 
-  <project path=".opencode/skills" name="skills.git" remote="github" revision="main" />
+  <project path=".opencode/skill" name="skills.git" remote="github" revision="main" />
 </manifest>
