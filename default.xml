@@ -20,6 +20,7 @@
 
   <project path="manifest" name="manifest.git" remote="github" revision="main">
     <linkfile src="default.md" dest="AGENTS.md" />
+    <linkfile src="manifest.ignore" dest=".ignore" />
   </project>
 
   <project path=".opencode/skill" name="skills.git" remote="github" revision="main" />
