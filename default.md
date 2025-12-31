@@ -1,0 +1,23 @@
+# AGENTS.md - NuttX Project Guide
+
+## Project Layout
+
+This project consists of multiple individual git repositories managed via repo tool. For the complete manifest, refer to @manifest/default.xml
+
+### Core Repositories
+
+- **nuttx/** - NuttX kernel and operating system (apache/nuttx)
+- **nuttx-apps/** - Application layer with examples and tools (apache/nuttx-apps)
+- **boards/** - Board-specific configurations and board support packages (custom)
+- **nuttx-apps/external/** - External application dependencies
+- **.opencode/skill/** - Agent skills and guidelines
+
+### External Components
+
+- **nuttx-apps/interpreters/wamr/wamr/** - WebAssembly Micro Runtime (bytecodealliance/wasm-micro-runtime)
+- **nuttx-apps/graphics/lvgl/lvgl/** - Light and Versatile Graphics Library (lvgl/lvgl)
+- **nuttx-apps/external/crates/** - Rust crates index for NuttX
+
+## Critical Rules
+- **IMPORTANT** Ensure you're in the correct repository directory before running git commands
+- Refer to skill for task-specific guidance

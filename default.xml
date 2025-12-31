@@ -18,7 +18,9 @@
 
   <project path="nuttx-apps/external/crates" name="nuttx-crates-index.git" remote="github" revision="main" />
 
-  <project path="manifest" name="manifest.git" remote="github" revision="main" />
+  <project path="manifest" name="manifest.git" remote="github" revision="main">
+    <linkfile src="default.md" dest="AGENTS.md" />
+  </project>
 
   <project path=".opencode/skill" name="skills.git" remote="github" revision="main" />
 </manifest>
