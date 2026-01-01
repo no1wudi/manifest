@@ -2,7 +2,7 @@
 
 ## Project Layout
 
-This project consists of multiple individual git repositories managed via repo tool. For the complete manifest, refer to @manifest/default.xml
+This project consists of multiple individual git repositories managed via repo tool. For the complete manifest, refer to anifest/default.xml
 
 ### Core Repositories
 
@@ -10,7 +10,6 @@ This project consists of multiple individual git repositories managed via repo t
 - **nuttx-apps/** - Application layer with examples and tools (apache/nuttx-apps)
 - **boards/** - Board-specific configurations and board support packages (custom)
 - **nuttx-apps/external/** - External application dependencies
-- **.opencode/skill/** - Agent skills and guidelines
 
 ### External Components
 
@@ -19,5 +18,5 @@ This project consists of multiple individual git repositories managed via repo t
 - **nuttx-apps/external/crates/** - Rust crates index for NuttX
 
 ## Critical Rules
-- **IMPORTANT** Ensure you're in the correct repository directory before running git commands
-- Refer to skill for task-specific guidance
+- Multi-repo project managed by `repo` - check directory before git commands
+- Use `skill` tool for specialized tasks - check descriptions before starting work
