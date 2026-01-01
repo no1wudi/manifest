@@ -19,4 +19,4 @@ This project consists of multiple individual git repositories managed via repo t
 - **manifest/** - Repo tool configuration directory
 
 ## Critical Rules
-- **Never** try to run or test unless explicitly requested
+- **NEVER** try to run or test unless explicitly requested
