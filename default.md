@@ -2,7 +2,7 @@
 
 ## Project Layout
 
-This project consists of multiple individual git repositories managed via repo tool. For the complete manifest, refer to anifest/default.xml
+This project consists of multiple individual git repositories managed via repo tool. For the complete manifest, refer to manifest/default.xml
 
 ### Core Repositories
 
@@ -18,5 +18,4 @@ This project consists of multiple individual git repositories managed via repo t
 - **nuttx-apps/external/crates/** - Rust crates index for NuttX
 
 ## Critical Rules
-- Multi-repo project managed by `repo` - check directory before git commands
-- Use `skill` tool for specialized tasks - check descriptions before starting work
+- **Never** try to run or test unless explicitly requested
