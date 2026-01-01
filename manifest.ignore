@@ -1,4 +1,5 @@
 .git
+.repo
 
 !nuttx-apps/interpreters/wamr/wamr/
 !nuttx-apps/graphics/lvgl/lvgl/
