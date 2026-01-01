@@ -20,3 +20,4 @@ This project consists of multiple individual git repositories managed via repo t
 
 ## Critical Rules
 - **NEVER** try to run or test unless explicitly requested
+- **NEVER** run `distclean` on the project unless explicitly requested by the user (assume the project is configured and ready to build)
