@@ -16,6 +16,7 @@ This project consists of multiple individual git repositories managed via repo t
 - **nuttx-apps/interpreters/wamr/wamr/** - WebAssembly Micro Runtime (bytecodealliance/wasm-micro-runtime)
 - **nuttx-apps/graphics/lvgl/lvgl/** - Light and Versatile Graphics Library (lvgl/lvgl)
 - **nuttx-apps/external/crates/** - Rust crates index for NuttX
+- **manifest/** - Repo tool configuration directory
 
 ## Critical Rules
 - **Never** try to run or test unless explicitly requested
