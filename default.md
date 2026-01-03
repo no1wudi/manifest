@@ -20,7 +20,6 @@ This project consists of multiple individual git repositories managed via repo t
 
 ## Critical Rules
 - **NEVER** try to run or test unless explicitly requested
-- **NEVER** run `distclean` on the project unless explicitly requested by the user (assume the project is configured and ready to build)
 - **MUST** set the **working directory parameter** properly for shell commands; never use `cd` chains
 - **MUST** limit output with `head`/`tail` (avoid full logs/compilations)
-- **MUST** load skill instructions before start working
+- **MUST REVIEW and SELECT** proper skills before working
