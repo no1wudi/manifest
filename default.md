@@ -22,4 +22,4 @@ This project consists of multiple individual git repositories managed via repo t
 - **NEVER** try to run or test unless explicitly requested
 - **MUST** set the **working directory parameter** properly for shell commands; never use `cd` chains
 - **MUST** limit output with `head`/`tail` (avoid full logs/compilations)
-- **MUST REVIEW and SELECT** proper skills before working
+- **MUST** review and select appropriate skills before beginning any work, and explicitly acknowledge which skills will be used
