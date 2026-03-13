@@ -23,5 +23,5 @@
     <linkfile src="manifest.ignore" dest=".ignore" />
   </project>
 
-  <project path=".opencode/skill" name="skills.git" remote="github" revision="main" />
+  <project path=".opencode/skills" name="skills.git" remote="github" revision="main" />
 </manifest>
