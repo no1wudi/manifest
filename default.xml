@@ -8,7 +8,7 @@
 
   <project path="nuttx-apps" name="apache/nuttx-apps" remote="origin" revision="master" />
 
-  <project path="nuttx-apps/interpreters/wamr/wamr" name="bytecodealliance/wasm-micro-runtime" remote="origin" revision="main" />
+  <project path="nuttx-apps/interpreters/wamr/wamr" name="wasm-micro-runtime/wasm-micro-runtime" remote="origin" revision="main" />
 
   <project path="nuttx-apps/graphics/lvgl/lvgl" name="lvgl/lvgl" remote="origin" revision="59a6b61c9580b65089010c5273f2fcdd6c4d2aae" />
 
